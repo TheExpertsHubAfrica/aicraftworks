@@ -1,9 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #200557;
+    --custom: #200557;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
+    --primary: #dba010;
 }
 
 .aiOriginal {
@@ -229,13 +230,13 @@ body {
 
 /*** Icon ***/
 .icon {
-    padding: 15px;
+    padding: 10px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF !important;
+    /* background: #FFFFFF !important; */
     border-radius: 50px;
-    border: 1px dashed var(--primary) !important;
+    /* border: 1px dashed var(--custom) !important; */
 }
 
 .icon img {
