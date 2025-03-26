@@ -238,6 +238,9 @@ body {
     border: 1px dashed var(--primary) !important;
 }
 
+.icon img {
+    width: 50px;
+}
 
 /*** About ***/
 .about-img img {
