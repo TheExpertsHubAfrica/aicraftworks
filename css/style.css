@@ -392,6 +392,9 @@ body {
     background: var(--dark);
 }
 
+#number {
+    color: #FFFFFF80;
+}
 
 /*** Footer ***/
 .footer .btn.btn-social {
