@@ -24,6 +24,15 @@
             $('.nav-bar').removeClass('sticky-top');
         }
     });
+
+    // Show popup at regular intervals
+    setInterval(() => {
+        const chatPopup = document.getElementById('chat-popup');
+        chatPopup.style.display = 'block';
+        setTimeout(() => {
+            chatPopup.style.display = 'none';
+        }, 3000); // Hide after 3 seconds
+        }, 10000); // Show every 10 seconds
     
     
     // Back to top button
